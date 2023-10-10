@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Autour+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Suhani Pant</a>
+        <nav class="navbar">
+            <a href="#home" >Home</a>
+            <a href="#about" >About</a>
+            <a href="#skills" >Skills</a>
+            <a href="#project" >Projects</a>
+            <a href="#contact" >Contact</a>
+        </nav>
+    </header>
+
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi There!</h3>
+            <p><span class="auto-type"></span></p><br><br>
+            <a href="./my_resume.pdf" class="btn">Resume</a>
+        </div>
+    </section>
+
+    <section class="about hidden" id="about">
+        <div class="about-img">
+            <img src="./images/Aboutpic.jpeg" alt="mypic">
+        </div>
+        <div class="about-txt">
+            <h1><span>About Me</span></h1>
+            <p>
+                Hello! I'm an enthusiastic aspiring front-end developer on a journey to explore the exciting world of web development. I'm passionate about creating beautiful and user-friendly websites that enhance the online experience for users.
+            </p>
+            <p>
+                While I may be at the beginning of my web development journey, I'm eager to learn and grow every day. I have a strong foundation in HTML, CSS, and JavaScript, and I'm excited to expand my skillset and take on new challenges in the field.
+            </p>
+            <p>
+                My goal is to become a proficient front-end developer who can craft engaging and responsive websites that not only look great but also provide exceptional user experiences. I believe in the power of creativity, problem-solving, and continuous learning to achieve that goal.
+            </p>
+        </div>
+    </section>
+
+    <section class="hidden" id="skills">
+        <h1><span>Skills</span></h1>
+        <div class="under">
+        <div class="skills">
+            <div class="skill">
+              <div class="skill-name">HTML</div>
+              <div class="skill-bar">
+                <div class="skill-per" per="90%" style="max-width:90%"></div>
+              </div>
+            </div>
+          
+            <div class="skill">
+              <div class="skill-name">CSS</div>
+              <div class="skill-bar">
+                <div class="skill-per" per="70%" style="max-width:70%"></div>
+              </div>
+            </div>
+          
+            <div class="skill">
+              <div class="skill-name">Javascript</div>
+              <div class="skill-bar">
+                <div class="skill-per" per="60%" style="max-width:60%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+     </section><br><br>
+
+
+
+     <section id="project" class="hidden">
+        <div>
+            <div class="main-text" id="project">
+                <h2><span>Projects</span></h2>
+
+                <div class="portfolio-content">
+                    <div class="row">
+                        <img src="./images/project1.png" alt="">
+                        <div class="layer">
+                            <h5>Landing Page</h5>
+                            <p>This is a Fashion landing page</p>
+                            <a href="https://github.com/SuhaniPant15/Codsoft/tree/main/Landing_page" target="_blank"><i class='bx bx-link-external'></i></a>
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="row">
+                        <img src="./images/project2.png" alt="">
+                        <div class="layer">
+                            <h5>Portfolio</h5>
+                            <p>This is my Personal Portfolio</p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </section><br><br>
+
+
+
+    <section id="contact" class="contact hidden">
+        <div class="contact-text"><br>
+            <h2><span>Contact Me</span></h2>
+            
+            <div class="contact-icons">
+                <a href="mailto:suhanipant15@gmail.com" target="_blank">
+                <img src="./images/gmail_logo.png" alt="" srcset="" height="40" weight="40"></a>
+                <a href="//www.linkedin.com/in/suhani-pant-b709a5253" target="_blank" style="--i:5">
+                <img src="./images/linkedin_logo.png" alt="" srcset="" height="40" weight="40"></a>
+                <a href="https://www.instagram.com/suhanipant_/" target="_blank" style="--i:6">
+                <img src="./images/instagram_logo.png" alt="" srcset="" height="40" weight="40"></a>
+                <a href="https://www.github.com/SuhaniPant15/" target="_blank" style="--i:6">
+                <img src="./images/github_logo.png" alt="" srcset="" height="40" weight="40"></a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="credit">Created By <span> &copy; Suhani Pant</span> | All Rights Reserved</div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
